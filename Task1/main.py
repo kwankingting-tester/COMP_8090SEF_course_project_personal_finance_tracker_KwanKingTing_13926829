@@ -1,37 +1,36 @@
 from core.manager import FinanceManager
-#之後可能會加入GUI,或者將data另外save去database/excel (唔排除需要將顯示改回做英文(未來確認左的話再改))
+
 def main():
     app = FinanceManager()
     app.load_data()
 
     while True:
         print("\n" + "="*50)
-        print("     個人智能記賬系統")
+        print("     Personal Finance Tracker System")
         print("="*50)
-        print("1. 加入收入")
-        print("2. 加入支出")
-        print("3. 查看總結")
-        print("4. 退出")
-        choice = input("\n請輸入選擇 (1-4): ")
+        print("1. Add Income")
+        print("2. Add Expense")
+        print("3. View Summary")
+        print("4. Exit")
+        choice = input("\nEnter choice (1-4): ")
 
         if choice == "1":
-            amount = float(input("金額: "))
-            cat = input("類別 (e.g. 薪水、投資): ")
-            app.add_transaction("現金錢包", amount, cat, True)
-            print("✅ 收入已記錄！")
+            amount = float(input("Amount: "))
+            cat = input("Category (e.g. Salary, Investment): ")
+            app.add_transaction("Cash Wallet", amount, cat, True)
+            print("✅ Income recorded!")
         elif choice == "2":
-            amount = float(input("金額: "))
-            cat = input("類別 (e.g. 飲食、交通): ")
-            app.add_transaction("現金錢包", amount, cat, False)
-            print("✅ 支出已記錄！")
+            amount = float(input("Amount: "))
+            cat = input("Category (e.g. Food, Transport): ")
+            app.add_transaction("Cash Wallet", amount, cat, False)
+            print("✅ Expense recorded!")
         elif choice == "3":
             app.show_summary()
         elif choice == "4":
-            print("👋 感謝使用！數據已自動儲存。")
+            print("👋 Thanks for using! Data saved.")
             break
         else:
-            print("❌ 輸入錯誤，請重試")
+            print("❌ Invalid input, please try again")
 
 if __name__ == "__main__":
-
     main()
