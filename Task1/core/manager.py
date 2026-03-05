@@ -4,7 +4,7 @@ from models.transaction import Income, Expense
 
 class FinanceManager:
     def __init__(self):
-        self._accounts = [Account("現金錢包")]
+        self._accounts = [Account("Cash Wallet")]  
 
     def add_transaction(self, acc_name: str, amount: float, category: str, is_income: bool):
         acc = next((a for a in self._accounts if a._name == acc_name), None)
@@ -17,13 +17,13 @@ class FinanceManager:
         self.save_data()
 
     def show_summary(self):
-        print("\n=== 記賬總覽 ===")
+        print("\n=== Finance Summary ===") 
         for acc in self._accounts:
             print(acc)
             print("-" * 40)
             for t in acc.get_transactions()[-5:]:
                 print("  ", t)
-        print(f"\n總帳戶數: {len(self._accounts)}")
+        print(f"\nTotal Accounts: {len(self._accounts)}")
 
     def save_data(self):
         data = []
@@ -43,6 +43,6 @@ class FinanceManager:
         try:
             with open("data/transactions.json", "r", encoding="utf-8") as f:
                 json.load(f)
-            print("✅歷史記錄已載入")
+            print("✅ History loaded successfully")  
         except:
             pass
