@@ -1,18 +1,23 @@
+from models.transaction import Transaction
+
 class Account:
     def __init__(self, name: str):
         self._name = name
         self._transactions = []
 
-    def add_transaction(self, transaction):
+    def get_name(self) -> str:
+        return self._name
+
+    def add_transaction(self, transaction: Transaction):
         self._transactions.append(transaction)
 
     def get_balance(self) -> float:
         total = 0.0
         for t in self._transactions:
             if t.get_type() == "Income":  
-                total += t._amount
+                total += t.get_amount()
             else:
-                total -= t._amount
+                total -= t.get_amount()
         return total
 
     def get_transactions(self):
