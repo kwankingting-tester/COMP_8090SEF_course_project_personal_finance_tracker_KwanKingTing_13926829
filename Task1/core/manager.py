@@ -4,6 +4,7 @@ import sys
 from Task1.models.account import Account
 from Task1.models.transaction import Income, Expense
 #將Task 1 和Task 2 包在一起,令到Task 2的Heap也能在Task 1中的function使用
+#用UTF-8是廢時其他系統開出bug
 class FinanceManager:
     def __init__(self):
         self._accounts = [Account("Cash Wallet")]
@@ -44,7 +45,7 @@ class FinanceManager:
                         item["type"] == "Income"
                     )
         except Exception as e:
-            print(f"⚠️ Load failed: {e}")
+            print(f"Load failed: {e}")
 
     def save_data(self):
         if not os.path.exists("data"):
@@ -72,7 +73,7 @@ class FinanceManager:
     
     def show_top_5_expenses(self):
         print("\n" + "-"*20)
-        print(" 🔥 Top 5 Highest Expenses (from Heap)")
+        print(" Top 5 Highest Expenses (from Heap)")
         print("-"*20)
         if not self._expense_heap or not self._expense_heap._heap:
             print("No expenses recorded yet.")
@@ -84,7 +85,7 @@ class FinanceManager:
 
     def show_sorted_expenses(self):
         print("\n" + "-"*20)
-        print(" 📊 Full Expense Report (Heap Sort)")
+        print("Full Expense Report (Heap Sort)")
         print("-"*20)
         
         all_expenses = []
