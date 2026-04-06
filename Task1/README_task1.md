@@ -16,3 +16,6 @@ Composition: The FinanceManager class manages a collection of Account and Transa
 ##  Current Limitations
 The Task 1 summary feature is designed to show only the last 5 records to maintain a clean interface. This limitation is addressed and optimized in Task 2 through advanced sorting.
 
+##  How to run:
+cd task1
+python main.py
