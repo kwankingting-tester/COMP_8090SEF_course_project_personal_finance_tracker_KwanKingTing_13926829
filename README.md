@@ -13,7 +13,7 @@ Location: /Task1/
 Detailed README:[Task1/README_task1.md](Task1/README_task1.md)
 How to run:
 cd task1  
-python Task1/main.py
+python main.py
 
 Task 2: Self-Study on New Data Structure & Algorithm 
 The Heap maintains real-time Top 5 highest spending alerts, while Heap Sort generates sorted monthly reports.  
@@ -24,8 +24,9 @@ Task 2 enhances the system with a Binary Max-Heap to provide real-time "Top 5 Sp
 
 Location: /Task2/
 Detailed README: [Task2/README_task2.md](Task2/README_task2.md)
-How to run: 
-cd task2 
+How to run(Global)(To run Task 2 from this root directory and include Task 1 data:): 
 python Task2/main.py
+
+
 
 
