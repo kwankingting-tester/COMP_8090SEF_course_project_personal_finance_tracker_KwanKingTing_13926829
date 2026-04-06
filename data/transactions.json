@@ -4,41 +4,41 @@
     "type": "Income",
     "amount": 10000.0,
     "category": "Salary",
-    "date": "2026-04-05 22:27"
+    "date": "2026-04-06 11:10"
   },
   {
     "account": "Cash Wallet",
     "type": "Expense",
     "amount": 50.0,
     "category": "Bus",
-    "date": "2026-04-05 22:27"
+    "date": "2026-04-06 11:10"
   },
   {
     "account": "Cash Wallet",
     "type": "Income",
     "amount": 10000.0,
     "category": "Salary",
-    "date": "2026-04-05 22:27"
+    "date": "2026-04-06 11:10"
   },
   {
     "account": "Cash Wallet",
     "type": "Expense",
     "amount": 2000.0,
     "category": "Rent",
-    "date": "2026-04-05 22:27"
+    "date": "2026-04-06 11:10"
   },
   {
     "account": "Cash Wallet",
     "type": "Expense",
     "amount": 2000.0,
     "category": "Rent",
-    "date": "2026-04-05 22:27"
+    "date": "2026-04-06 11:10"
   },
   {
     "account": "Cash Wallet",
     "type": "Expense",
     "amount": 3500.0,
     "category": "Laptop",
-    "date": "2026-04-05 22:27"
+    "date": "2026-04-06 11:10"
   }
 ]

@@ -4,27 +4,41 @@
     "type": "Income",
     "amount": 5000.0,
     "category": "Salary",
-    "date": "2026-04-06 10:55"
+    "date": "2026-04-06 11:14"
   },
   {
     "account": "Cash Wallet",
     "type": "Expense",
     "amount": 2400.0,
     "category": "Transport",
-    "date": "2026-04-06 10:55"
+    "date": "2026-04-06 11:14"
   },
   {
     "account": "Cash Wallet",
     "type": "Income",
     "amount": 5000.0,
     "category": "Salry",
-    "date": "2026-04-06 10:55"
+    "date": "2026-04-06 11:14"
   },
   {
     "account": "Cash Wallet",
     "type": "Expense",
     "amount": 1000.0,
     "category": "Food",
-    "date": "2026-04-06 10:56"
+    "date": "2026-04-06 11:14"
+  },
+  {
+    "account": "Cash Wallet",
+    "type": "Income",
+    "amount": 10000.0,
+    "category": "Salary",
+    "date": "2026-04-06 11:14"
+  },
+  {
+    "account": "Cash Wallet",
+    "type": "Expense",
+    "amount": 2000.0,
+    "category": "Rent",
+    "date": "2026-04-06 11:15"
   }
 ]
