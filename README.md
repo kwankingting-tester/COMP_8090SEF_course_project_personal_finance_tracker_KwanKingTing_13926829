@@ -19,7 +19,7 @@ How to run:
 cd task1  
 python main.py
 
-**Task 2: Self-Study on New Data Structure & Algorithm **
+**Task 2: Self-Study on New Data Structure & Algorithm**
 The Heap maintains real-time Top 5 highest spending alerts, while Heap Sort generates sorted monthly reports.  
 This makes the finance system intelligent — after every new transaction in Task 1, Task 2 automatically updates priority spending data.
 Unlike separate scripts, this project integrates Task 2 directly into the Task 1 core engine. 
