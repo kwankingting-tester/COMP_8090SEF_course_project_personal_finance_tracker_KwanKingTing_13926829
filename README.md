@@ -19,7 +19,7 @@ How to run:
 cd task1  
 python main.py
 
-###Project Demonstration
+### Project Demonstration
 Here is a Introduction video of the Task1:
 (The video below is compressed for GitHub. For better quality, please refer to the Google Drive link provided in my OLE and Project Report.)
 https://github.com/user-attachments/assets/c93a2e22-20cf-4f86-b464-ea74d1ce152c
@@ -38,7 +38,7 @@ Detailed README: [Task2/README_task2.md](Task2/README_task2.md)
 How to run(Global)(To run Task 2 from this root directory and include Task 1 data:): 
 python Task2/main.py
 
-###Project Demonstration
+### Project Demonstration
 (The video below is compressed for GitHub. For better quality, please refer to the Google Drive link provided in my OLE and Project Report.)
 Here is a Introduction video of the Task2:
 https://github.com/user-attachments/assets/bb7030a5-e3b5-4126-b6c8-e8818f6c0212
